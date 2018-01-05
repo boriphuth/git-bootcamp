@@ -1,0 +1,40 @@
+// VERSION ------------------------------------------------------------
+git --version
+
+// INIT ------------------------------------------------------------
+git init
+
+// CHECK STATUS ----------------------------------------------------
+git status
+
+// ADD TO STAGED ---------------------------------------------------
+git add <filename>
+git add --all
+git add -A
+git add *.txt
+// ADD FILES IF IT IS MARKED TO BE IGNORED .gitignore 
+git add -f
+git add --force
+
+// COMMIT ----------------------------------------------------------
+git commit --message "<message>"
+git commit -m "<message>"
+
+
+// RESET -----------------------------------------------------------
+git reset HEAD <file>
+// YOU DELETED FILE THEN BRING IT BACK
+git checkout index.html
+// YOU DELETED FILE ADD TO STAGED THEN BRING IT BACK
+git reset index.html
+// YOU DELETED FILE ADD TO STAGED AND COMMIT THEN BRING IT BACK
+git reset --soft HEAD~1
+// REMOVE FROM STAGED TO UNTRACKED ---------------------------------
+git rm --cached second.txt
+
+// VIEW HISTORY ----------------------------------------------------
+git log
+
+// CONFIG ----------------------------------------------------------
+git config user.name "<USERNAME>"
+git config user.email "<EMAIL>"

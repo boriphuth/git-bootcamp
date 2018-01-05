@@ -1,0 +1,22 @@
+// CLONE
+git clone <URL>
+git clone <URL> <projectname>
+
+// Adding a Remote to a local repository
+git remote add origin <URL>
+
+// PUSH
+git push -u origin master
+
+// FETCH
+git fetch
+
+// MERGE REMOTE TO LOCAL
+git merge origin/master
+
+// PULL
+git pull
+
+// REMOTE 
+git remote -v
+

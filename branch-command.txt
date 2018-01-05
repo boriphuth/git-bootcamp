@@ -1,0 +1,15 @@
+// GET BRANCH
+git branch
+
+// CREATE BRANCH
+git branch <BRANCHNAME>
+
+// SWITCH TO BRANCH
+git checkout <BRANCHNAME>
+git checkout - // PREVIOUS BRANCH
+
+// MERGING BRANCH
+git merge <BRANCHNAME>
+
+// DIFF BRANCH
+git diff <BRANCHNAME1>..<BRANCHNAME2>
